@@ -46,6 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Examples\While\forms\CollectToNumbers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Examples\While\forms\CollectToNumbers.Designer.cs">
+      <DependentUpon>CollectToNumbers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Examples\While\forms\doWhileExample.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Examples\While\forms\doWhileExample.Designer.cs">
+      <DependentUpon>doWhileExample.cs</DependentUpon>
+    </Compile>
     <Compile Include="Examples\Foreach\Forms\CreateRandomNumber.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -81,6 +93,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Examples\Foreach\Forms\ComparisonNumbers.resx">
       <DependentUpon>ComparisonNumbers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Examples\While\forms\CollectToNumbers.resx">
+      <DependentUpon>CollectToNumbers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Examples\While\forms\doWhileExample.resx">
+      <DependentUpon>doWhileExample.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Examples\While\forms\SayıYazdırma.resx">
       <DependentUpon>SayıYazdırma.cs</DependentUpon>
