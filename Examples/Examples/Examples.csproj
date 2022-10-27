@@ -46,61 +46,80 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Examples\While\forms\CollectToNumbers.cs">
+    <Compile Include="Examples\C%28sharp%29\Motot\Class\Class1.cs" />
+    <Compile Include="Examples\C%28sharp%29\While\forms\CollectToNumbers.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Examples\While\forms\CollectToNumbers.Designer.cs">
+    <Compile Include="Examples\C%28sharp%29\While\forms\CollectToNumbers.Designer.cs">
       <DependentUpon>CollectToNumbers.cs</DependentUpon>
     </Compile>
-    <Compile Include="Examples\While\forms\doWhileExample.cs">
+    <Compile Include="Examples\C%28sharp%29\While\forms\doWhileExample.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Examples\While\forms\doWhileExample.Designer.cs">
+    <Compile Include="Examples\C%28sharp%29\While\forms\doWhileExample.Designer.cs">
       <DependentUpon>doWhileExample.cs</DependentUpon>
     </Compile>
-    <Compile Include="Examples\Foreach\Forms\CreateRandomNumber.cs">
+    <Compile Include="Examples\C%28sharp%29\Foreach\Forms\CreateRandomNumber.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Examples\Foreach\Forms\CreateRandomNumber.Designer.cs">
+    <Compile Include="Examples\C%28sharp%29\Foreach\Forms\CreateRandomNumber.Designer.cs">
       <DependentUpon>CreateRandomNumber.cs</DependentUpon>
     </Compile>
-    <Compile Include="Examples\Foreach\Class\Class.cs" />
-    <Compile Include="Examples\Foreach\Forms\WriteProductİnfo.cs">
+    <Compile Include="Examples\C%28sharp%29\Foreach\Class\Class.cs" />
+    <Compile Include="Examples\C%28sharp%29\Foreach\Forms\WriteProductİnfo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Examples\Foreach\Forms\WriteProductİnfo.Designer.cs">
+    <Compile Include="Examples\C%28sharp%29\Foreach\Forms\WriteProductİnfo.Designer.cs">
       <DependentUpon>WriteProductİnfo.cs</DependentUpon>
     </Compile>
-    <Compile Include="Examples\Foreach\Forms\ComparisonNumbers.cs">
+    <Compile Include="Examples\C%28sharp%29\Foreach\Forms\ComparisonNumbers.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Examples\Foreach\Forms\ComparisonNumbers.Designer.cs">
+    <Compile Include="Examples\C%28sharp%29\Foreach\Forms\ComparisonNumbers.Designer.cs">
       <DependentUpon>ComparisonNumbers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Examples\C%28sharp%29\Motot\Forms\Metot1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Examples\C%28sharp%29\Motot\Forms\Metot1.Designer.cs">
+      <DependentUpon>Metot1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Examples\C%28sharp%29\Motot\Forms\Metot2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Examples\C%28sharp%29\Motot\Forms\Metot2.Designer.cs">
+      <DependentUpon>Metot2.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Examples\While\forms\SayıYazdırma.cs">
+    <Compile Include="Examples\C%28sharp%29\While\forms\SayıYazdırma.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Examples\While\forms\SayıYazdırma.Designer.cs">
+    <Compile Include="Examples\C%28sharp%29\While\forms\SayıYazdırma.Designer.cs">
       <DependentUpon>SayıYazdırma.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Examples\Foreach\Forms\CreateRandomNumber.resx">
+    <EmbeddedResource Include="Examples\C%28sharp%29\Foreach\Forms\CreateRandomNumber.resx">
       <DependentUpon>CreateRandomNumber.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Examples\Foreach\Forms\WriteProductİnfo.resx">
+    <EmbeddedResource Include="Examples\C%28sharp%29\Foreach\Forms\WriteProductİnfo.resx">
       <DependentUpon>WriteProductİnfo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Examples\Foreach\Forms\ComparisonNumbers.resx">
+    <EmbeddedResource Include="Examples\C%28sharp%29\Foreach\Forms\ComparisonNumbers.resx">
       <DependentUpon>ComparisonNumbers.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Examples\While\forms\CollectToNumbers.resx">
+    <EmbeddedResource Include="Examples\C%28sharp%29\Motot\Forms\Metot1.resx">
+      <DependentUpon>Metot1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Examples\C%28sharp%29\Motot\Forms\Metot2.resx">
+      <DependentUpon>Metot2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Examples\C%28sharp%29\While\forms\CollectToNumbers.resx">
       <DependentUpon>CollectToNumbers.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Examples\While\forms\doWhileExample.resx">
+    <EmbeddedResource Include="Examples\C%28sharp%29\While\forms\doWhileExample.resx">
       <DependentUpon>doWhileExample.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Examples\While\forms\SayıYazdırma.resx">
+    <EmbeddedResource Include="Examples\C%28sharp%29\While\forms\SayıYazdırma.resx">
       <DependentUpon>SayıYazdırma.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -126,7 +145,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Examples\While\class\" />
+    <Folder Include="Examples\C%28sharp%29\While\class\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
