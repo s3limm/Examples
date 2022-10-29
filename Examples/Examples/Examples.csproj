@@ -114,6 +114,12 @@
     <Compile Include="Examples\C%28sharp%29\Motot\Forms\MakingTrangle.Designer.cs">
       <DependentUpon>MakingTrangle.cs</DependentUpon>
     </Compile>
+    <Compile Include="Examples\C%28sharp%29\Motot\Forms\FindingNumbers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Examples\C%28sharp%29\Motot\Forms\FindingNumbers.Designer.cs">
+      <DependentUpon>FindingNumbers.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Examples\C%28sharp%29\While\forms\SayıYazdırma.cs">
@@ -136,6 +142,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Examples\C%28sharp%29\Foreach\Forms\ComparisonNumbers.resx">
       <DependentUpon>ComparisonNumbers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Examples\C%28sharp%29\Motot\Forms\FindingNumbers.resx">
+      <DependentUpon>FindingNumbers.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Examples\C%28sharp%29\Motot\Forms\MakingTrangle.resx">
       <DependentUpon>MakingTrangle.cs</DependentUpon>

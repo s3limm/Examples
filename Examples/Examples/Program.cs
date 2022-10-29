@@ -16,7 +16,7 @@ namespace Examples
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new WriteTheNumbers());
+            Application.Run(new FindingNumbers());
         }
     }
 }
