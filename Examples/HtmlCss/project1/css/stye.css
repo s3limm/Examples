@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;   
+}
+
+body{
+    background-image: url(/project1/css/pictures/warzone.jpg);
+    background-size:cover ;
+    background-repeat: no-repeat;
+    font-family: 'Poppis' sans-serif;
+}
